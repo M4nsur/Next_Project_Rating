@@ -26,8 +26,10 @@ a {
 } */
 
 :root {
+  --white: #EBEBEB;
   --black: #3B434E;
-  --bcg: #7653FC;
+  --main: #7653FC;
+  --mainHover: #4c30bb;
   --green: #1DC37E;
   --greenLight: #C8F8E4;
   --font-family: 'Noto Sans', sans-serif;
