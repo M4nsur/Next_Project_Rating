@@ -8,7 +8,6 @@ const Home: NextPage = () => {
     <>
     <Htag tag= "h1">Тест</Htag>
     <Button appearance='ghost'>Кнопка</Button>
-    <Button appearance='primary'>Кнопка</Button>
     </>
   );
 };

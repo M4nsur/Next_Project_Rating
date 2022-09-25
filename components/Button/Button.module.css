@@ -18,7 +18,7 @@
 
 .primary:hover {
     color: white;
-    background-color: var(--mainHover);
+    background-color: rgb(160, 159, 158);
 }
 
 .ghost {
@@ -29,6 +29,6 @@
 
 .ghost:hover {
     color: var(--black);
-    background-color: var(--white);
+    background-color: rgb(160, 159, 158);
     border:1px solid grey  ;
 }
