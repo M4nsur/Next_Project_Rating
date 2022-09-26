@@ -1,8 +1,7 @@
 import { ButtonProps } from './Button.props';
 import styles from "./Button.module.css";
 import cn from "classnames";
-import ArrowIcon from './ArrowIcon';
-
+import Arrow from "./Arrow.svg";
 //в пропсах (...props) содержатся свойства кнопки
 const Button = ({appearance, arrow = "none", children, className, ...props}: ButtonProps): JSX.Element => {
     return (
@@ -17,7 +16,7 @@ const Button = ({appearance, arrow = "none", children, className, ...props}: But
                     [styles.right]:arrow == "right",
                     [styles.down]:arrow == "down"
                 })}><></>
-                <ArrowIcon id={"svg"}/>
+                <Arrow/>
                 </span>}               
                 </button>
     );
