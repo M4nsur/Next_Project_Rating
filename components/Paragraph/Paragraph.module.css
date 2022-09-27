@@ -1,0 +1,18 @@
+.paragraph {
+    font-family: 'Noto Sans';
+}
+
+.pSize14 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.pSize16 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pSize18 {
+    font-size: 18px;
+    line-height: 29px;
+}
