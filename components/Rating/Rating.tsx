@@ -16,7 +16,7 @@ const Rating = ({isChange = false, rating, setRating, ...props}: RatingProps): J
 
 
     const createRating = (currentRating: number) => {
-        //мапим массив ratingArray, где возвращаем компоненты Star с условием: присваем класс "starFilled" элементам пока index меньше, 
+        //мапим массив ratingArray, где возвращаем компоненты Star с условием: присвоить класс "starFilled" элементам пока index меньше, 
         //чем rating (это пропс, который определяется сколько звездочек поставили)
         const updateRating = ratingArray.map((elem: JSX.Element, i: number) => {
             return (

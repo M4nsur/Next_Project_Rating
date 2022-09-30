@@ -15,7 +15,7 @@ const Home: NextPage = () => {
     <Tag size='m' color='greenLight' >тег 1</Tag>
     <Tag size='s' href='google.com' color='ghost'>тег 2</Tag>
     <Tag size='s' color='red'>теdsdsdг 2</Tag>
-    <Rating rating={2}/>
+    <Rating rating={3}/>
     </>
   );
 };
